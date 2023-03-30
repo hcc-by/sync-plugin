@@ -1,0 +1,16 @@
+{
+    "auth": {
+        "registry.cn-hangzhou.aliyuncs.com": {
+            "username": "a121673163",
+            "password": "HUB_PASSWORD"
+        }
+    },
+    "images": {                 
+        "docker.elastic.co/apm/apm-server": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/apm-server",
+        "docker.elastic.co/app-search/app-search": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/app-search",
+        "registry.hub.docker.com/kubernetesui/dashboard": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/dashboard",
+        "quay.io/brancz/kube-rbac-proxy": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/kube-rbac-proxy",
+        "registry.hub.docker.com/kubernetesui/metrics-scraper": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-scraper"
+ 
+    }
+}
